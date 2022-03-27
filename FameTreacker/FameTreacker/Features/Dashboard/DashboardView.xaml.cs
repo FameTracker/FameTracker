@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace FameTreacker.Features
+namespace FameTreacker.Features.Dashboard
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Dashboard : ContentPage
+    public partial class DashboardView : ContentPage
     {
-        public Dashboard()
+        public DashboardView()
         {
             InitializeComponent();
         }
