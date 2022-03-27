@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace FameTreacker.Features
+namespace FameTreacker.Features.Events
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Events : ContentPage
+    public partial class EventsView : ContentPage
     {
-        public Events()
+        public EventsView()
         {
             InitializeComponent();
         }
