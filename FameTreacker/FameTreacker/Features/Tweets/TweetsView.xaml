@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:resources="clr-namespace:FameTreacker.Core.Resources;assembly=FameTreacker"
+             x:Class="FameTreacker.Features.Tweets.TweetsView"
+             Title="{x:Static resources:Strings.Tweets}"
+             IconImageSource="{OnPlatform iOS=events@3x.png, Android=ic_events}"
+             BackgroundColor="#202020">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Grid>
+                    <Label Text="{x:Static resources:Strings.Tweets}" FontSize="30" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#f5f5f5"/>
+                </Grid>
+                <StackLayout Padding="17" BackgroundColor="#161616" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                    <Label Text="New Tweets" TextColor="#f5f5f5" HorizontalTextAlignment="Center"></Label>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
