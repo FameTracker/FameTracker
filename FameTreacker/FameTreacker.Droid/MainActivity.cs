@@ -5,6 +5,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Xamarin.Forms;
 
 namespace FameTreacker.Droid
 {
@@ -20,6 +21,7 @@ namespace FameTreacker.Droid
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
+            Window?.SetStatusBarColor(Android.Graphics.Color.Argb(255, 32, 32, 32));
         }
     }
 }

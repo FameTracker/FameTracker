@@ -21,6 +21,9 @@ namespace FameTreacker.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            UITabBar.Appearance.SelectedImageTintColor = UIColor.FromRGB(32, 32, 32);
+            UISwitch.Appearance.OnTintColor = UIColor.FromRGB(32, 32, 32);
+            
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 

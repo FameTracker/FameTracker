@@ -2,14 +2,21 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"  
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
             x:Class="FameTreacker.Core.Layout.MainView"  
-            xmlns:features="clr-namespace:FameTreacker.Features;assembly=FameTreacker"
             xmlns:androidSpecific="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            xmlns:dashboard="clr-namespace:FameTreacker.Features.Dashboard;assembly=FameTreacker"
+            xmlns:events="clr-namespace:FameTreacker.Features.Events;assembly=FameTreacker"
+            xmlns:tweets="clr-namespace:FameTreacker.Features.Tweets;assembly=FameTreacker"
+            xmlns:videos="clr-namespace:FameTreacker.Features.Videos;assembly=FameTreacker"
+            xmlns:photos="clr-namespace:FameTreacker.Features.Photos;assembly=FameTreacker"
             BarTextColor="#F5F5F5"
             BarBackgroundColor="#202020"
-            androidSpecific:TabbedPage.BarItemColor="#66FFFFFF"
-            androidSpecific:TabbedPage.BarSelectedItemColor="#242424"
+            androidSpecific:TabbedPage.BarItemColor="#F5F5F5"
+            androidSpecific:TabbedPage.BarSelectedItemColor="#96FF070A"
             Title="TabView">  
     <!--Pages-->  
-    <features:Dashboard/>
-    <features:Events/>
+    <dashboard:DashboardView/>
+    <events:EventsView/>
+    <tweets:TweetsView/>
+    <videos:VideosView/>
+    <photos:PhotosView/>
 </TabbedPage>  

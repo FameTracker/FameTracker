@@ -34,5 +34,13 @@
         <AutoGen>True</AutoGen>
         <DependentUpon>Strings.pl.resx</DependentUpon>
       </Compile>
+      <Compile Update="Features\Dashboard\DashboardView.xaml.cs">
+        <DependentUpon>Dashboard.xaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="Features\Events\EventsView.xaml.cs">
+        <DependentUpon>Events.xaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
     </ItemGroup>
 </Project>
