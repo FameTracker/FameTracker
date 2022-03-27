@@ -61,7 +61,7 @@ namespace FameTreacker.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Wydażenia.
+        ///   Looks up a localized string similar to Wydarzenia.
         /// </summary>
         internal static string Events {
             get {
