@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>  
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"  
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
+            x:Class="FameTreacker.Core.Layout.MainView"  
+            xmlns:features="clr-namespace:FameTreacker.Features;assembly=FameTreacker"
+            xmlns:androidSpecific="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            BarTextColor="#F5F5F5"
+            BarBackgroundColor="#202020"
+            androidSpecific:TabbedPage.BarItemColor="#66FFFFFF"
+            androidSpecific:TabbedPage.BarSelectedItemColor="#242424"
+            Title="TabView">  
+    <!--Pages-->  
+    <features:Dashboard/>
+    <features:Events/>
+</TabbedPage>  

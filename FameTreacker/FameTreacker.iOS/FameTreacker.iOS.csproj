@@ -92,6 +92,7 @@
         <None Include="Entitlements.plist" />
         <None Include="Info.plist" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <None Include="Resources\events@x3.png" />
     </ItemGroup>
     <ItemGroup>
         <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -132,13 +133,20 @@
         <Reference Include="Xamarin.iOS" />
     </ItemGroup>
     <ItemGroup>
-        <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+        <PackageReference Include="ReactiveUI" Version="17.1.50" />
+        <PackageReference Include="ReactiveUI.Events.XamForms" Version="15.1.1" />
+        <PackageReference Include="ReactiveUI.XamForms" Version="17.1.50" />
+        <PackageReference Include="Xamarin.CommunityToolkit" Version="2.0.1" />
+        <PackageReference Include="Xamarin.Forms" Version="5.0.0.2337" />
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\FameTreacker\FameTreacker.csproj">
             <Project>{CA14F6D4-A260-4248-95FF-B0203A1D7460}</Project>
             <Name>FameTreacker</Name>
         </ProjectReference>
+    </ItemGroup>
+    <ItemGroup>
+      <BundleResource Include="Resources\home@3x.png" />
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
