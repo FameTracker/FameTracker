@@ -7,3 +7,5 @@ Nieoficjalna aplikacja mobilna na iOS oraz Androida do śledzenia wydarzeń, fil
 - Śledzenie filmów na youtube związanych z Fane
 - Śledzenie wydarzeń FameMMA
 - mobilny player (konferencje oraz gale z ppv)
+
+[English ReadMe](/README.en.md)
