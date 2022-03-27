@@ -2,8 +2,8 @@
 
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:resources="clr-namespace:FameTreacker.Core.Resources;assembly=FameTreacker"
-             x:Class="FameTreacker.Features.Dashboard.DashboardView"
+             xmlns:resources="clr-namespace:FameTracker.Core.Resources;assembly=FameTracker"
+             x:Class="FameTracker.Features.Dashboard.DashboardView"
              Title="{x:Static resources:Strings.Home}"
              IconImageSource="{OnPlatform iOS=home.png, Android=ic_home}"
              BackgroundColor="#202020">

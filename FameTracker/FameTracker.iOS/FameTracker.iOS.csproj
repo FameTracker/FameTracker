@@ -8,9 +8,9 @@
         <ProjectGuid>{DAFCE242-B368-433A-AE48-F8F252869F40}</ProjectGuid>
         <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
         <OutputType>Exe</OutputType>
-        <RootNamespace>FameTreacker.iOS</RootNamespace>
+        <RootNamespace>FameTracker.iOS</RootNamespace>
         <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-        <AssemblyName>FameTreacker.iOS</AssemblyName>
+        <AssemblyName>FameTracker.iOS</AssemblyName>
         <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
@@ -143,9 +143,9 @@
         <PackageReference Include="Xamarin.Forms" Version="5.0.0.2337" />
     </ItemGroup>
     <ItemGroup>
-        <ProjectReference Include="..\FameTreacker\FameTreacker.csproj">
+        <ProjectReference Include="..\FameTracker\FameTracker.csproj">
             <Project>{CA14F6D4-A260-4248-95FF-B0203A1D7460}</Project>
-            <Name>FameTreacker</Name>
+            <Name>FameTracker</Name>
         </ProjectReference>
     </ItemGroup>
     <ItemGroup>

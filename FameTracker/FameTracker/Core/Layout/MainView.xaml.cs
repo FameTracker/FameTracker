@@ -8,7 +8,7 @@ using Xamarin.Forms.PlatformConfiguration.AndroidSpecific;
 using Xamarin.Forms.Xaml;
 using TabbedPage = Xamarin.Forms.TabbedPage;
 
-namespace FameTreacker.Core.Layout
+namespace FameTracker.Core.Layout
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainView : TabbedPage

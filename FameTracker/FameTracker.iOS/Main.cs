@@ -4,7 +4,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace FameTreacker.iOS
+namespace FameTracker.iOS
 {
     public class Application
     {

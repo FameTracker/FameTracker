@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FameTreacker.Resources {
+namespace FameTracker.Resources {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace FameTreacker.Resources {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("FameTreacker.Resources.Strings.pl", typeof(Strings_pl).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("FameTracker.Resources.Strings.pl", typeof(Strings_pl).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

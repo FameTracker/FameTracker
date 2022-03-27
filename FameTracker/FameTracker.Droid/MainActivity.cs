@@ -7,9 +7,9 @@ using Android.Widget;
 using Android.OS;
 using Xamarin.Forms;
 
-namespace FameTreacker.Droid
+namespace FameTracker.Droid
 {
-    [Activity(Label = "FameTreacker", Theme = "@style/MainTheme", MainLauncher = true,
+    [Activity(Label = "FameTracker", Theme = "@style/MainTheme", MainLauncher = true,
         ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {

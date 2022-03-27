@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace FameTreacker.Features.Photos
+namespace FameTracker.Features.Photos
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PhotosView : ContentPage

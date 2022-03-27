@@ -1,11 +1,11 @@
 ﻿using System;
-using FameTreacker.Core.Layout;
+using FameTracker.Core.Layout;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 
-namespace FameTreacker
+namespace FameTracker
 {
     public partial class App : Application
     {

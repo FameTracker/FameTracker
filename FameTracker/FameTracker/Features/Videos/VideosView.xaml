@@ -2,8 +2,8 @@
 
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:resources="clr-namespace:FameTreacker.Core.Resources;assembly=FameTreacker"
-             x:Class="FameTreacker.Features.Videos.VideosView"
+             xmlns:resources="clr-namespace:FameTracker.Core.Resources;assembly=FameTracker"
+             x:Class="FameTracker.Features.Videos.VideosView"
              Title="{x:Static resources:Strings.Videos}"
              IconImageSource="{OnPlatform iOS=videos.png, Android=ic_videos}"
              BackgroundColor="#202020">

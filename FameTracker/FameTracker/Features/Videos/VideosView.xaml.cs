@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace FameTreacker.Features.Videos
+namespace FameTracker.Features.Videos
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class VideosView : ContentPage

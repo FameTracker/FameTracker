@@ -2,8 +2,8 @@
 
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:resources="clr-namespace:FameTreacker.Core.Resources;assembly=FameTreacker"
-             x:Class="FameTreacker.Features.Events.EventsView"
+             xmlns:resources="clr-namespace:FameTracker.Core.Resources;assembly=FameTracker"
+             x:Class="FameTracker.Features.Events.EventsView"
              Title="{x:Static resources:Strings.Events}"
              IconImageSource="{OnPlatform iOS=events.png, Android=ic_events}"
              BackgroundColor="#202020">
