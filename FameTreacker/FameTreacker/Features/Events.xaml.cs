@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xamarin.Forms;
 
-namespace FameTreacker
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace FameTreacker.Features
 {
-    public partial class MainPage : ContentPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class Events : ContentPage
     {
-        public MainPage()
+        public Events()
         {
             InitializeComponent();
         }
