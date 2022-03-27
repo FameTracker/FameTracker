@@ -1,5 +1,5 @@
 # Fame Treacker
-Nieoficjalna aplikacja mobilna na iOS oraz Androida do śledzenia wydarzeń, filmów oraz postów związanych z FameMMA
+Nieoficjalna aplikacja mobilna na iOS oraz Androida do śledzenia wydarzeń, filmów oraz postów związanych z FameMMA.
 
 # Co jest planowane
 - Śledzenie tweetów związanych z Fame
