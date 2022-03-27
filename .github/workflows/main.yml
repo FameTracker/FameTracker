@@ -1,0 +1,36 @@
+# Copied from https://github.com/VulcanovaApp/Vulcanova
+
+name: Android Build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: macos-11
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set default Xamarin SDK versions
+      run: |
+        $VM_ASSETS/select-xamarin-sdk-v2.sh --mono=6.12 --android=11.3
+    - uses: actions/checkout@v2
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 5.0.x
+
+    - name: Restore dependencies
+      run: nuget restore
+
+    - name: Build
+      run: msbuild FameTracker/FameTracker.Droid/FameTracker.Droid.csproj /t:PackageForAndroid /t:SignAndroidPackage /p:Configuration=Debug
+      
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        path: FameTracker/FameTracker.Droid/bin/Debug/io.github.FameTracker.apk
