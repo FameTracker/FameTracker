@@ -77,5 +77,32 @@ namespace FameTreacker.Core.Resources {
                 return ResourceManager.GetString("Home", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Photos.
+        /// </summary>
+        internal static string Photos {
+            get {
+                return ResourceManager.GetString("Photos", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tweets.
+        /// </summary>
+        internal static string Tweets {
+            get {
+                return ResourceManager.GetString("Tweets", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Videos.
+        /// </summary>
+        internal static string Videos {
+            get {
+                return ResourceManager.GetString("Videos", resourceCulture);
+            }
+        }
     }
 }
