@@ -5,7 +5,7 @@
              xmlns:resources="clr-namespace:FameTreacker.Core.Resources;assembly=FameTreacker"
              x:Class="FameTreacker.Features.Dashboard.DashboardView"
              Title="{x:Static resources:Strings.Home}"
-             IconImageSource="{OnPlatform iOS=home@3x.png, Android=ic_home}"
+             IconImageSource="{OnPlatform iOS=home.png, Android=ic_home}"
              BackgroundColor="#202020">
     <ContentPage.Content>
         <ScrollView>

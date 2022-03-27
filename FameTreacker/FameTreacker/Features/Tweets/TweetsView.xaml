@@ -5,7 +5,7 @@
              xmlns:resources="clr-namespace:FameTreacker.Core.Resources;assembly=FameTreacker"
              x:Class="FameTreacker.Features.Tweets.TweetsView"
              Title="{x:Static resources:Strings.Tweets}"
-             IconImageSource="{OnPlatform iOS=events@3x.png, Android=ic_events}"
+             IconImageSource="{OnPlatform iOS=tweets.png, Android=ic_tweets}"
              BackgroundColor="#202020">
     <ContentPage.Content>
         <ScrollView>

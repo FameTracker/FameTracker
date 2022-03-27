@@ -92,7 +92,10 @@
         <None Include="Entitlements.plist" />
         <None Include="Info.plist" />
         <Compile Include="Properties\AssemblyInfo.cs" />
-        <None Include="Resources\events@x3.png" />
+        <None Include="Resources\events.png" />
+        <None Include="Resources\photos.png" />
+        <None Include="Resources\tweets.svg.png" />
+        <None Include="Resources\videos.svg.png" />
     </ItemGroup>
     <ItemGroup>
         <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -146,7 +149,7 @@
         </ProjectReference>
     </ItemGroup>
     <ItemGroup>
-      <BundleResource Include="Resources\home@3x.png" />
+      <BundleResource Include="Resources\home.png" />
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
