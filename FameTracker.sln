@@ -1,10 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FameTreacker", "FameTreacker\FameTreacker\FameTreacker.csproj", "{159E28B8-6D38-44E3-8770-428A867B553A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FameTracker", "FameTracker\FameTracker\FameTracker.csproj", "{159E28B8-6D38-44E3-8770-428A867B553A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FameTreacker.Droid", "FameTreacker\FameTreacker.Droid\FameTreacker.Droid.csproj", "{E0A54D5C-DA48-4587-80BE-662493D2A94F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FameTracker.Droid", "FameTracker\FameTracker.Droid\FameTracker.Droid.csproj", "{E0A54D5C-DA48-4587-80BE-662493D2A94F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FameTreacker.iOS", "FameTreacker\FameTreacker.iOS\FameTreacker.iOS.csproj", "{DAFCE242-B368-433A-AE48-F8F252869F40}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FameTracker.iOS", "FameTracker\FameTracker.iOS\FameTracker.iOS.csproj", "{DAFCE242-B368-433A-AE48-F8F252869F40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
