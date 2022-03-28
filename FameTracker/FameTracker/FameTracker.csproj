@@ -10,37 +10,38 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="ReactiveUI" Version="17.1.50" />
-        <PackageReference Include="ReactiveUI.Events.XamForms" Version="15.1.1" />
-        <PackageReference Include="ReactiveUI.XamForms" Version="17.1.50" />
-        <PackageReference Include="Xamarin.CommunityToolkit" Version="2.0.1" />
-        <PackageReference Include="Xamarin.Forms" Version="5.0.0.2337" />
+        <PackageReference Include="CoreTweet" Version="2.0.0-beta.1"/>
+        <PackageReference Include="ReactiveUI" Version="17.1.50"/>
+        <PackageReference Include="ReactiveUI.Events.XamForms" Version="15.1.1"/>
+        <PackageReference Include="ReactiveUI.XamForms" Version="17.1.50"/>
+        <PackageReference Include="Xamarin.CommunityToolkit" Version="2.0.1"/>
+        <PackageReference Include="Xamarin.Forms" Version="5.0.0.2337"/>
     </ItemGroup>
 
     <ItemGroup>
-      <EmbeddedResource Update="Resources\Strings.resx">
-        <Generator>ResXFileCodeGenerator</Generator>
-        <LastGenOutput>Strings.Designer.cs</LastGenOutput>
-      </EmbeddedResource>
-      <EmbeddedResource Update="Resources\Strings.pl.resx">
-        <Generator>ResXFileCodeGenerator</Generator>
-        <LastGenOutput>Strings.pl.Designer.cs</LastGenOutput>
-      </EmbeddedResource>
+        <EmbeddedResource Update="Resources\Strings.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+        <EmbeddedResource Update="Resources\Strings.pl.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>Strings.pl.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
     </ItemGroup>
 
     <ItemGroup>
-      <Compile Update="Resources\Strings.pl.Designer.cs">
-        <DesignTime>True</DesignTime>
-        <AutoGen>True</AutoGen>
-        <DependentUpon>Strings.pl.resx</DependentUpon>
-      </Compile>
-      <Compile Update="Features\Dashboard\DashboardView.xaml.cs">
-        <DependentUpon>Dashboard.xaml</DependentUpon>
-        <SubType>Code</SubType>
-      </Compile>
-      <Compile Update="Features\Events\EventsView.xaml.cs">
-        <DependentUpon>Events.xaml</DependentUpon>
-        <SubType>Code</SubType>
-      </Compile>
+        <Compile Update="Resources\Strings.pl.Designer.cs">
+            <DesignTime>True</DesignTime>
+            <AutoGen>True</AutoGen>
+            <DependentUpon>Strings.pl.resx</DependentUpon>
+        </Compile>
+        <Compile Update="Features\Dashboard\DashboardView.xaml.cs">
+            <DependentUpon>Dashboard.xaml</DependentUpon>
+            <SubType>Code</SubType>
+        </Compile>
+        <Compile Update="Features\Events\EventsView.xaml.cs">
+            <DependentUpon>Events.xaml</DependentUpon>
+            <SubType>Code</SubType>
+        </Compile>
     </ItemGroup>
 </Project>

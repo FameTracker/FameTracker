@@ -3,20 +3,20 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:resources="clr-namespace:FameTracker.Core.Resources;assembly=FameTracker"
-             x:Class="FameTracker.Features.Dashboard.DashboardView"
-             Title="{x:Static resources:Strings.Home}"
-             IconImageSource="{OnPlatform iOS=home.png, Android=ic_home}"
+             x:Class="FameTracker.Features.Twitter.TwitterView"
+             Title="{x:Static resources:Strings.Twitter}"
+             IconImageSource="{OnPlatform iOS=twitter.png, Android=ic_twitter}"
              BackgroundColor="#202020">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
                 <Grid>
-                    <Label Text="{x:Static resources:Strings.Home}" FontSize="30" FontAttributes="Bold"
-                           HorizontalOptions="Center" VerticalOptions="Center" TextColor="#f5f5f5" />
+                    <Label Text="{x:Static resources:Strings.Twitter}" FontSize="30" FontAttributes="Bold"
+                           HorizontalOptions="Center" VerticalOptions="Center" Padding="5" TextColor="#f5f5f5" />
                 </Grid>
                 <StackLayout Padding="17" BackgroundColor="#161616" VerticalOptions="FillAndExpand"
                              HorizontalOptions="FillAndExpand">
-                    <Label Text="Start" TextColor="#f5f5f5" HorizontalTextAlignment="Center"></Label>
+                    <Label x:Name="Tweet_1" Text="New Twitter" TextColor="#f5f5f5" HorizontalTextAlignment="Center"></Label>
                 </StackLayout>
             </StackLayout>
         </ScrollView>

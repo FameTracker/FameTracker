@@ -88,11 +88,11 @@ namespace FameTracker.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Tweety.
+        ///   Looks up a localized string similar to Twitter.
         /// </summary>
-        internal static string Tweets {
+        internal static string Twitter {
             get {
-                return ResourceManager.GetString("Tweets", resourceCulture);
+                return ResourceManager.GetString("Twitter", resourceCulture);
             }
         }
         
