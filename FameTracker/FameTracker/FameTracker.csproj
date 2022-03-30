@@ -2,6 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>9</LangVersion>
     </PropertyGroup>
 
     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -10,12 +11,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="CoreTweet" Version="2.0.0-beta.1"/>
-        <PackageReference Include="ReactiveUI" Version="17.1.50"/>
-        <PackageReference Include="ReactiveUI.Events.XamForms" Version="15.1.1"/>
-        <PackageReference Include="ReactiveUI.XamForms" Version="17.1.50"/>
-        <PackageReference Include="Xamarin.CommunityToolkit" Version="2.0.1"/>
-        <PackageReference Include="Xamarin.Forms" Version="5.0.0.2337"/>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+        <PackageReference Include="Xamarin.CommunityToolkit" Version="2.0.1" />
+        <PackageReference Include="Xamarin.Forms" Version="5.0.0.2337" />
     </ItemGroup>
 
     <ItemGroup>

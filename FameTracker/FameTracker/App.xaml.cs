@@ -1,5 +1,4 @@
-﻿using System;
-using FameTracker.Core.Layout;
+﻿using FameTracker.Core.Layout;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -7,28 +6,17 @@ using Xamarin.Forms.Xaml;
 
 namespace FameTracker
 {
-    public partial class App : Application
+    public partial class App
     {
         public App()
         {
             InitializeComponent();
 
-            MainPage = new MainView();
-        }
-
-        protected override void OnStart()
-        {
-            // Handle when your app starts
-        }
-
-        protected override void OnSleep()
-        {
-            // Handle when your app sleeps
-        }
-
-        protected override void OnResume()
-        {
-            // Handle when your app resumes
+            MainPage = new NavigationPage(new MainView())
+            {
+                BarBackgroundColor = Color.FromHex("#303030"),
+                BarTextColor = Color.White
+            };
         }
     }
 }

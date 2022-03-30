@@ -22,6 +22,8 @@
         </array>
         <key>MinimumOSVersion</key>
         <string>15.0</string>
+        <key>UIViewControllerBasedStatusBarAppearance</key>
+        <false/>
         <key>CFBundleDisplayName</key>
         <string>FameTracker</string>
         <key>CFBundleIdentifier</key>

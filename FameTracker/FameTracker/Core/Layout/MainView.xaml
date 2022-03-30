@@ -6,18 +6,22 @@
             xmlns:androidSpecific="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
             xmlns:dashboard="clr-namespace:FameTracker.Features.Dashboard;assembly=FameTracker"
             xmlns:events="clr-namespace:FameTracker.Features.Events;assembly=FameTracker"
-            xmlns:tweets="clr-namespace:FameTracker.Features.Twitter;assembly=FameTracker"
             xmlns:videos="clr-namespace:FameTracker.Features.Videos;assembly=FameTracker"
             xmlns:photos="clr-namespace:FameTracker.Features.Photos;assembly=FameTracker"
-            BarTextColor="#F5F5F5"
-            BarBackgroundColor="#202020"
-            androidSpecific:TabbedPage.BarItemColor="#F5F5F5"
-            androidSpecific:TabbedPage.BarSelectedItemColor="#96FF070A"
-            Title="TabView">
-    <!--Pages-->
+            xmlns:iOsSpecific="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+            xmlns:twitter="clr-namespace:FameTracker.Features.Twitter;assembly=FameTracker"
+            androidSpecific:TabbedPage.ToolbarPlacement="Bottom"
+            iOsSpecific:TabbedPage.TranslucencyMode="Translucent"
+            androidSpecific:TabbedPage.IsSwipePagingEnabled="False"
+            BarBackgroundColor="#303030"
+            BarTextColor="#F9F9f9"
+            BackgroundColor="#303030"
+            Title="Fame Tracker">
+    <androidSpecific:TabbedPage.BarSelectedItemColor>#FF615F</androidSpecific:TabbedPage.BarSelectedItemColor>
+    <androidSpecific:TabbedPage.BarItemColor>#F9F9F9</androidSpecific:TabbedPage.BarItemColor>
     <dashboard:DashboardView />
     <events:EventsView />
-    <tweets:TwitterView />
+    <twitter:TwitterView />
     <videos:VideosView />
     <photos:PhotosView />
 </TabbedPage>

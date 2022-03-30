@@ -8,10 +8,10 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("FameTracker.iOS")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("CompanyName")]
+[assembly: AssemblyCompany("FameTracker")]
 [assembly: AssemblyProduct("FameTracker.iOS")]
-[assembly: AssemblyCopyright("Copyright © CompanyName Year")]
-[assembly: AssemblyTrademark("CompanyTrademark")]
+[assembly: AssemblyCopyright("Copyright © FameTracker 2022")]
+[assembly: AssemblyTrademark("FameTracker")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]
 

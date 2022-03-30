@@ -10,10 +10,6 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-                <Grid>
-                    <Label Text="{x:Static resources:Strings.Events}" FontSize="30" FontAttributes="Bold"
-                           HorizontalOptions="Center" VerticalOptions="Center" TextColor="#f5f5f5" />
-                </Grid>
                 <StackLayout Padding="17" BackgroundColor="#161616" VerticalOptions="FillAndExpand"
                              HorizontalOptions="FillAndExpand">
                     <Label Text="New Events" TextColor="#f5f5f5" HorizontalTextAlignment="Center"></Label>
