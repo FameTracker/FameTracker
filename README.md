@@ -8,4 +8,7 @@ Nieoficjalna aplikacja mobilna na iOS oraz Androida do śledzenia wydarzeń, fil
 - Śledzenie wydarzeń FameMMA
 - mobilny player
 
+# Użyte Projekty
+- [LinqToTwitter](https://github.com/JoeMayo/LinqToTwitter)
+
 [English ReadMe](/README.en.md)

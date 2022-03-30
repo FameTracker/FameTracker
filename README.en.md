@@ -8,4 +8,7 @@ Unofficial iOS and Android mobile application for following FameMMA events, vide
 - Keep track of FameMMA events
 - mobile player
 
+# Used resources
+- [LinqToTwitter](https://github.com/JoeMayo/LinqToTwitter)
+
 [Polish ReadMe](/README.md)
