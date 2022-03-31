@@ -10,6 +10,9 @@ Nieoficjalna aplikacja mobilna na iOS oraz Androida do śledzenia wydarzeń, fil
 - Śledzenie wydarzeń FameMMA
 - mobilny player
 
+# [Discord](https://discord.gg/Qdv2x7PhvH)
+Dołącz do naszej społeczności!
+
 # Użyte Projekty
 - [LiteDB](https://github.com/mbdavid/LiteDB)
 # Dev
