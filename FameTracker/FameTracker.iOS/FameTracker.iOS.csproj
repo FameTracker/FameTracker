@@ -138,6 +138,7 @@
         <Reference Include="Xamarin.iOS" />
     </ItemGroup>
     <ItemGroup>
+        <PackageReference Include="LiteDB" Version="5.0.11" />
         <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
         <PackageReference Include="Xamarin.CommunityToolkit" Version="2.0.1" />
         <PackageReference Include="Xamarin.FFImageLoading" Version="2.4.11.982" />

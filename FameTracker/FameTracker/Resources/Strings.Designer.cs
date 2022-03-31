@@ -79,6 +79,15 @@ namespace FameTracker.Core.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to No connection to twitter services.
+        /// </summary>
+        internal static string NoTweets {
+            get {
+                return ResourceManager.GetString("NoTweets", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Photos.
         /// </summary>
         internal static string Photos {

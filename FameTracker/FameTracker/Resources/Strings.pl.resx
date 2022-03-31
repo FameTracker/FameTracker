@@ -38,4 +38,7 @@
     <data name="Videos" xml:space="preserve">
         <value>Filmy</value>
     </data>
+    <data name="NoTweets" xml:space="preserve">
+        <value>Brak połączenia z usługami Twittera</value>
+    </data>
 </root>

@@ -1,6 +1,8 @@
-﻿using Xamarin.Forms.Xaml;
-using FameTracker.Features.Twitter;
+﻿using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Input;
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace FameTracker.Features.Twitter
 {
@@ -10,10 +12,23 @@ namespace FameTracker.Features.Twitter
         public TwitterView()
         {
             InitializeComponent();
+            
+            
+            GetTweets(EntriesList);
+            
+            // ICommand refreshCommand = new Command(() =>
+            // {
+            //     GetTweets(EntriesList);
+            //     RefreshView.IsRefreshing = false;
+            // });
+            // RefreshView.Command = refreshCommand;
+        }
 
-            var twitterViewModel = new TwitterViewModel();
-
-            Tweet_1.Text = twitterViewModel.GetTweets()[0].Text;
+        private void GetTweets(CollectionView EntriesList)
+        {
+            TwitterService twitterService = new();
+            var data = twitterService.FetchTweets().Result;
+            EntriesList.ItemsSource = data;
         }
     }
 }
