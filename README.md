@@ -16,6 +16,6 @@ Dołącz do naszej społeczności!
 # Użyte Projekty
 - [LiteDB](https://github.com/mbdavid/LiteDB)
 # Dev
-Jeżeli chcesz pomóc w rozwoju aplikacji, możesz zgłosić błąd lub zmianę w repozytorium.
+Jeżeli chcesz pomóc w rozwoju aplikacji, możesz zgłosić błąd lub zmianę w repozytorium [https://github.com/FameTracker/Contribute]
 
 [English ReadMe](/README.en.md)
